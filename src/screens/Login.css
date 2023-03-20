@@ -1,0 +1,18 @@
+.container1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.container2{
+    height: 400px;
+    width: 40%;
+    border-radius: 15px 0px 15px 0px;
+    /* background-color: rgb(137, 189, 212); */
+    border-color: black;
+    border-style:dotted;
+}
+.container3{
+    font-size: 30px;
+    text-transform:capitalize;
+    text-align: center;
+
+}
