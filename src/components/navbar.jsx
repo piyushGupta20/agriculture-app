@@ -33,6 +33,9 @@ function Navbar() {
             <Link to="/about" className='nav-link fs-4'>About</Link>
           </li>
           <li className="nav-item">
+          <Link to="/signup" className='nav-link fs-4'>sign up</Link>
+          </li>
+          <li className="nav-item">
           <Link to="/user" className='nav-link fs-4'><i className="fa fa-user" aria-hidden="true"></i></Link>
           </li>
         </ul>

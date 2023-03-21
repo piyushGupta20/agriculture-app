@@ -1,0 +1,81 @@
+.context{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 20px;
+}
+body{
+
+    height: 100vh;
+}
+
+.context2{
+    margin-top: 50px;
+}
+.context2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.context4{
+    color: darkgreen;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    padding-top: 0px;
+    font-weight: 600;
+}
+.context3{
+    font-size: 80px;
+    color: darkgreen;
+    font-weight: 800;
+    
+}
+.container1{
+    /* height: 500px; */
+    width: 100%;
+    background-color: antiquewhite;
+    padding-left: 100px;
+}
+.container2{
+    height: 280px;
+    width: 280px;
+    background-color: rgb(186, 203, 195);
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+}
+.container2 hr{
+    align-items: center;
+    width: 100%;
+    border-color: darkgreen;
+}
+.text{
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase   ;
+    letter-spacing: 8px;
+}
+.container2:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-color: rgb(120, 179, 120);
+}
+.bottom{
+    background-color: rgb(120, 179, 120);
+    height: 30px;
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+}
+.bottom2{
+    margin-left: 30px;
+}
